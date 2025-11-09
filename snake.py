@@ -40,4 +40,9 @@ class Snake:
             # Send current segment to previous segments position.
             self.segments[seg_num].goto(new_x, new_y)
         self.segments[0].forward(MOVE_DISTANCE)
-        self.segments[0].left(10)
+
+    def left(self):
+        self.segments[0].left(90)
+
+    def right(self):
+        self.segments[0].right(90)
