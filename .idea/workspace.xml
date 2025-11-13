@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1773fc44-f4b1-4193-a9ac-e96f322bc9c9" name="Changes" comment="051125">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+    <list default="true" id="1773fc44-f4b1-4193-a9ac-e96f322bc9c9" name="Changes" comment="091125 2215">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
@@ -106,11 +105,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761285663038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="091125 2215">
+      <option name="closed" value="true" />
+      <created>1762726521570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762726521570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="241025" />
-    <option name="LAST_COMMIT_MESSAGE" value="241025" />
+    <MESSAGE value="091125 2215" />
+    <option name="LAST_COMMIT_MESSAGE" value="091125 2215" />
   </component>
 </project>
