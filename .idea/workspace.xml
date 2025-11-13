@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1773fc44-f4b1-4193-a9ac-e96f322bc9c9" name="Changes" comment="091125 2215">
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -31,12 +32,12 @@
     &quot;assignee&quot;: &quot;hardmandez&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hardmandez/100DOfP-Day-20-Snake-CourseVersion.git&quot;,
-    &quot;accountId&quot;: &quot;6b709658-fddb-4c29-a6f5-096e0f181a39&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hardmandez/100DOfP-Day-20-Snake-CourseVersion.git",
+    "accountId": "a9d45faf-98f7-4f8a-b75b-3de10a089b5a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>

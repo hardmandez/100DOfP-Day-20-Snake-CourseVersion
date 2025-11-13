@@ -1,6 +1,7 @@
 from turtle import Screen, Turtle
 
 from food import Food
+from scoreboard import Scoreboard
 from snake import Snake
 import time
 
@@ -17,22 +18,8 @@ screen.tracer(0)
 #Setup snake.
 snake  = Snake()
 food = Food()
-#Define the starting position of the three objects to be created.
-# starting_positions=[(0,0),(-20,0),(-40,0)]
+scoreboard = Scoreboard()
 
-#Define empty list.
-# segments = []
-
-#Cycle throught the start position tuples and create a turtle object.
-# for position in starting_positions:
-#     #Create a new segment.
-#     new_segment=Turtle("square")
-#     new_segment.penup()
-#     new_segment.color("white")
-#     #Send the segment to the position in the list
-#     new_segment.goto(position)
-#     #Add the segment to list.
-#     segments.append(new_segment)
 
 screen.listen()
 screen.onkey(snake.left,"Left")
@@ -49,7 +36,13 @@ while game_is_on:
     time.sleep(0.1)
 
     snake.move_snake()
-    food.move_food()
+
+    #Detect collision
+    if snake.head.distance(food) < 15:
+        food.refresh()
+        snake.add_segment()
+        scoreboard.refresh_score()
+
 
 
 screen.exitonclick()
